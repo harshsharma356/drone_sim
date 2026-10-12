@@ -1,0 +1,9 @@
+/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup/CMakeFiles/uninstall.dir
+/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup/CMakeFiles/drone_bringup_uninstall.dir
+/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup/CMakeFiles/test.dir
+/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup/CMakeFiles/edit_cache.dir
+/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup/CMakeFiles/rebuild_cache.dir
+/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup/CMakeFiles/list_install_components.dir
+/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup/CMakeFiles/install.dir
+/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup/CMakeFiles/install/local.dir
+/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup/CMakeFiles/install/strip.dir

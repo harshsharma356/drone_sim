@@ -1,0 +1,2 @@
+[console_scripts]
+drone_teleop = drone_teleop.drone_teleop:main
