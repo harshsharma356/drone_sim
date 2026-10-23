@@ -13,7 +13,7 @@ class DroneTeleop(Node):
 
         self.latest_imu = None
         self.imu_subscriber = self.create_subscription(Imu, '/imu', self.imu_callback, 10)
-
+        
         self.latest_odom = None
         self.target_position = None
         self.max_command_speed = 0.5
@@ -128,16 +128,6 @@ class DroneTeleop(Node):
             p_altitude = self.kp_altitude * self.position_error[2]
             d_altitude = self.kd_altitude * vertical_velocity_error
             self.vertical_acceleration_command = p_altitude + d_altitude
-
-
-        q = self.latest_imu.orientation
-
-        measured_roll = math.atan2()
-
-        
-
-
-
 
 
         msg = Actuators()

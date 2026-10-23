@@ -1,2 +1,1 @@
-source;share/drone_bringup/environment/ament_prefix_path.sh
-source;share/drone_bringup/environment/path.sh
+/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup/ament_cmake_environment_hooks/local_setup.dsv

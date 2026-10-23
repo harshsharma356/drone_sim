@@ -1,0 +1,47 @@
+[0.018s] Invoking command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/galdrux/gazebo_projects/drone_ws/src/drone_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/galdrux/gazebo_projects/drone_ws/install/drone_description
+[0.190s] -- The C compiler identification is GNU 13.3.0
+[0.312s] -- The CXX compiler identification is GNU 13.3.0
+[0.339s] -- Detecting C compiler ABI info
+[0.465s] -- Detecting C compiler ABI info - done
+[0.475s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.476s] -- Detecting C compile features
+[0.477s] -- Detecting C compile features - done
+[0.489s] -- Detecting CXX compiler ABI info
+[0.614s] -- Detecting CXX compiler ABI info - done
+[0.624s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.624s] -- Detecting CXX compile features
+[0.625s] -- Detecting CXX compile features - done
+[0.635s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.822s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.903s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.059s] -- Configuring done (1.0s)
+[1.062s] -- Generating done (0.0s)
+[1.065s] -- Build files have been written to: /home/galdrux/gazebo_projects/drone_ws/build/drone_description
+[1.072s] Invoked command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/galdrux/gazebo_projects/drone_ws/src/drone_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/galdrux/gazebo_projects/drone_ws/install/drone_description
+[1.073s] Invoking command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/galdrux/gazebo_projects/drone_ws/build/drone_description -- -j16 -l16
+[1.112s] Invoked command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/galdrux/gazebo_projects/drone_ws/build/drone_description -- -j16 -l16
+[1.122s] Invoking command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/galdrux/gazebo_projects/drone_ws/build/drone_description
+[1.131s] -- Install configuration: ""
+[1.132s] -- Execute custom install script
+[1.132s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description//urdf/common_properties.xacro
+[1.141s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description//urdf/drone.urdf.xacro
+[1.151s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description//urdf/drone_gazebo.xacro
+[1.160s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description//urdf/imu_sensor.xacro
+[1.170s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description//launch/display.launch.xml
+[1.180s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description//rviz/urdf_config.rviz
+[1.189s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/ament_index/resource_index/package_run_dependencies/drone_description
+[1.200s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/ament_index/resource_index/parent_prefix_path/drone_description
+[1.209s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/environment/ament_prefix_path.sh
+[1.218s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/environment/ament_prefix_path.dsv
+[1.228s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/environment/path.sh
+[1.238s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/environment/path.dsv
+[1.248s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/local_setup.bash
+[1.258s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/local_setup.sh
+[1.268s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/local_setup.zsh
+[1.277s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/local_setup.dsv
+[1.286s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/package.dsv
+[1.298s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/ament_index/resource_index/packages/drone_description
+[1.307s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/cmake/drone_descriptionConfig.cmake
+[1.317s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/cmake/drone_descriptionConfig-version.cmake
+[1.328s] -- Symlinking: /home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/package.xml
+[1.341s] Invoked command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/galdrux/gazebo_projects/drone_ws/build/drone_description

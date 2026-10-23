@@ -1,0 +1,237 @@
+[0.122s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.122s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d64003b8050>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d6400334dd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d6400334dd0>>)
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.182s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/galdrux/gazebo_projects/drone_ws'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_bringup' with type 'ros.ament_cmake' and name 'drone_bringup'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_description' with type 'ros.ament_cmake' and name 'drone_description'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_teleop) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_teleop) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_teleop) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_teleop) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_teleop) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_teleop) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_teleop) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_teleop) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_teleop' with type 'ros.ament_python' and name 'drone_teleop'
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'drone_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup', 'merge_install': False, 'path': '/home/galdrux/gazebo_projects/drone_ws/src/drone_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'drone_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/galdrux/gazebo_projects/drone_ws/build/drone_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/galdrux/gazebo_projects/drone_ws/install/drone_description', 'merge_install': False, 'path': '/home/galdrux/gazebo_projects/drone_ws/src/drone_description', 'symlink_install': True, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'drone_teleop' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'drone_teleop' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'drone_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'drone_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'drone_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'drone_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'drone_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'drone_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'drone_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'drone_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/galdrux/gazebo_projects/drone_ws/build/drone_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop', 'merge_install': False, 'path': '/home/galdrux/gazebo_projects/drone_ws/src/drone_teleop', 'symlink_install': True, 'test_result_base': None}
+[0.241s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.242s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/galdrux/gazebo_projects/drone_ws/src/drone_bringup' with build type 'ament_cmake'
+[0.242s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/galdrux/gazebo_projects/drone_ws/src/drone_bringup'
+[0.245s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/galdrux/gazebo_projects/drone_ws/src/drone_description' with build type 'ament_cmake'
+[0.252s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/galdrux/gazebo_projects/drone_ws/src/drone_description'
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.256s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/galdrux/gazebo_projects/drone_ws/src/drone_teleop' with build type 'ament_python'
+[0.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_teleop', 'ament_prefix_path')
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/drone_teleop/hook/ament_prefix_path.dsv'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/drone_teleop/hook/ament_prefix_path.sh'
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/galdrux/gazebo_projects/drone_ws/src/drone_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup
+[0.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/galdrux/gazebo_projects/drone_ws/src/drone_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/galdrux/gazebo_projects/drone_ws/install/drone_description
+[0.501s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/galdrux/gazebo_projects/drone_ws/src/drone_teleop'
+[0.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.219s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload, build_py, install_scripts, extract_messages, install_headers, test, update_catalog, install, easy_install, saveopts, compile_catalog, sdist, bdist_rpm, dist_info, install_lib, egg_info, install_data, build_ext, symlink_data, clean, build_clib, alias, check, rotate, upload_docs, bdist_dumb, register, build, init_catalog, build_scripts, install_egg_info, bdist_egg, setopt, editable_wheel, develop, bdist
+[1.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/galdrux/gazebo_projects/drone_ws/src/drone_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup
+[1.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/galdrux/gazebo_projects/drone_ws/build/drone_bringup -- -j16 -l16
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/galdrux/gazebo_projects/drone_ws/src/drone_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/galdrux/gazebo_projects/drone_ws/install/drone_description
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/galdrux/gazebo_projects/drone_ws/build/drone_description -- -j16 -l16
+[1.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/galdrux/gazebo_projects/drone_ws/build/drone_description -- -j16 -l16
+[1.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/galdrux/gazebo_projects/drone_ws/build/drone_description
+[1.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/galdrux/gazebo_projects/drone_ws/build/drone_bringup -- -j16 -l16
+[1.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/galdrux/gazebo_projects/drone_ws/build/drone_bringup
+[1.511s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --optimize, --no-find-links, --quiet, --always-copy, --version, --allow-hosts, --verbose, --prefix, --site-dirs, --build-directory, --local-snapshots-ok, --user, --index-url, --script-dir, --no-user-cfg, --egg-path, --no-deps, --force-installation-into-system-dir, --zip-ok, --help, --record, --install-dir, --uninstall, --dry-run, --find-links, --editable, --install-layout, --exclude-scripts, --multi-version, --always-unzip, --upgrade
+[1.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/galdrux/gazebo_projects/drone_ws/build/drone_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/galdrux/gazebo_projects/drone_ws/build/drone_teleop/build --no-deps symlink_data
+[1.561s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_bringup)
+[1.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/galdrux/gazebo_projects/drone_ws/build/drone_bringup
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup' for CMake module files
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup' for CMake config files
+[1.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_bringup', 'cmake_prefix_path')
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/drone_bringup/hook/cmake_prefix_path.dsv'
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/drone_bringup/hook/cmake_prefix_path.sh'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/bin'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/lib/pkgconfig/drone_bringup.pc'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/lib/python3.12/site-packages'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/bin'
+[1.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/drone_bringup/package.dsv'
+[1.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/drone_bringup/package.sh'
+[1.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/drone_bringup/package.bash'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/drone_bringup/package.zsh'
+[1.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/colcon-core/packages/drone_bringup)
+[1.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_bringup)
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup' for CMake module files
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup' for CMake config files
+[1.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_bringup', 'cmake_prefix_path')
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/drone_bringup/hook/cmake_prefix_path.dsv'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/drone_bringup/hook/cmake_prefix_path.sh'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/bin'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/lib/pkgconfig/drone_bringup.pc'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/lib/python3.12/site-packages'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/bin'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/drone_bringup/package.dsv'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/drone_bringup/package.sh'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/drone_bringup/package.bash'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/drone_bringup/package.zsh'
+[1.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/galdrux/gazebo_projects/drone_ws/install/drone_bringup/share/colcon-core/packages/drone_bringup)
+[1.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_description)
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_description' for CMake module files
+[1.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/galdrux/gazebo_projects/drone_ws/build/drone_description
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_description' for CMake config files
+[1.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_description', 'cmake_prefix_path')
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.dsv'
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.sh'
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/bin'
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/lib/pkgconfig/drone_description.pc'
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/lib/python3.12/site-packages'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/bin'
+[1.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/package.dsv'
+[1.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/package.sh'
+[1.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/package.bash'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/package.zsh'
+[1.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/colcon-core/packages/drone_description)
+[1.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_description)
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_description' for CMake module files
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_description' for CMake config files
+[1.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_description', 'cmake_prefix_path')
+[1.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.dsv'
+[1.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.sh'
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/bin'
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/lib/pkgconfig/drone_description.pc'
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/lib/python3.12/site-packages'
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/bin'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/package.dsv'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/package.sh'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/package.bash'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/drone_description/package.zsh'
+[1.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/galdrux/gazebo_projects/drone_ws/install/drone_description/share/colcon-core/packages/drone_description)
+[1.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_teleop', 'pythonpath_develop')
+[1.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/galdrux/gazebo_projects/drone_ws/build/drone_teleop/share/drone_teleop/hook/pythonpath_develop.dsv'
+[1.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/galdrux/gazebo_projects/drone_ws/build/drone_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/galdrux/gazebo_projects/drone_ws/build/drone_teleop/build --no-deps symlink_data
+[1.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/galdrux/gazebo_projects/drone_ws/build/drone_teleop/share/drone_teleop/hook/pythonpath_develop.sh'
+[1.998s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop' for CMake module files
+[1.998s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop' for CMake config files
+[1.998s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/lib'
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/bin'
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/lib/pkgconfig/drone_teleop.pc'
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/lib/python3.12/site-packages'
+[1.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_teleop', 'pythonpath')
+[1.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/drone_teleop/hook/pythonpath.dsv'
+[1.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/drone_teleop/hook/pythonpath.sh'
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/bin'
+[2.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_teleop)
+[2.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/drone_teleop/package.dsv'
+[2.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/drone_teleop/package.sh'
+[2.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/drone_teleop/package.bash'
+[2.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/drone_teleop/package.zsh'
+[2.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/colcon-core/packages/drone_teleop)
+[2.001s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.001s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.001s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.001s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.007s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.007s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.007s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.027s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.028s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/galdrux/gazebo_projects/drone_ws/install/local_setup.sh'
+[2.028s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/galdrux/gazebo_projects/drone_ws/install/_local_setup_util_sh.py'
+[2.029s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/galdrux/gazebo_projects/drone_ws/install/setup.sh'
+[2.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/galdrux/gazebo_projects/drone_ws/install/local_setup.bash'
+[2.030s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/galdrux/gazebo_projects/drone_ws/install/setup.bash'
+[2.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/galdrux/gazebo_projects/drone_ws/install/local_setup.zsh'
+[2.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/galdrux/gazebo_projects/drone_ws/install/setup.zsh'

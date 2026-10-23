@@ -1,0 +1,24 @@
+[1.256s] Invoking command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/galdrux/gazebo_projects/drone_ws/build/drone_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/galdrux/gazebo_projects/drone_ws/build/drone_teleop/build --no-deps symlink_data
+[1.512s] running develop
+[1.653s] running egg_info
+[1.653s] creating drone_teleop.egg-info
+[1.667s] writing drone_teleop.egg-info/PKG-INFO
+[1.667s] writing dependency_links to drone_teleop.egg-info/dependency_links.txt
+[1.667s] writing entry points to drone_teleop.egg-info/entry_points.txt
+[1.667s] writing requirements to drone_teleop.egg-info/requires.txt
+[1.667s] writing top-level names to drone_teleop.egg-info/top_level.txt
+[1.667s] writing manifest file 'drone_teleop.egg-info/SOURCES.txt'
+[1.695s] reading manifest file 'drone_teleop.egg-info/SOURCES.txt'
+[1.695s] writing manifest file 'drone_teleop.egg-info/SOURCES.txt'
+[1.710s] running build_ext
+[1.710s] Creating /home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/lib/python3.12/site-packages/drone-teleop.egg-link (link to .)
+[1.710s] Installing drone_teleop script to /home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/lib/drone_teleop
+[1.710s] 
+[1.710s] Installed /home/galdrux/gazebo_projects/drone_ws/build/drone_teleop
+[1.711s] running symlink_data
+[1.711s] creating /home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/ament_index
+[1.711s] creating /home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/ament_index/resource_index
+[1.711s] creating /home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/ament_index/resource_index/packages
+[1.711s] symbolically linking /home/galdrux/gazebo_projects/drone_ws/build/drone_teleop/resource/drone_teleop -> /home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/ament_index/resource_index/packages
+[1.711s] symbolically linking /home/galdrux/gazebo_projects/drone_ws/build/drone_teleop/package.xml -> /home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/share/drone_teleop
+[1.741s] Invoked command in '/home/galdrux/gazebo_projects/drone_ws/build/drone_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/galdrux/gazebo_projects/drone_ws/build/drone_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/galdrux/gazebo_projects/drone_ws/install/drone_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/galdrux/gazebo_projects/drone_ws/build/drone_teleop/build --no-deps symlink_data
